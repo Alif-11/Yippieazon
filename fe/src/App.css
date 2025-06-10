@@ -5,27 +5,6 @@
   overflow-x: hidden;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: -10px 0px 10px 1px #aaaaaa;
-
-  border-left: 2px solid rgb(46, 44, 44);
-}
-
-::-webkit-scrollbar-thumb {
-  background: red;
-  border-radius: 25%;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
-}
 
 .logo {
   height: 6em;

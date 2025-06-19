@@ -14,6 +14,38 @@ public class ShoppingItemModel {
 
   @Id
   @GeneratedValue(strategy = GenerationType.UUID)
-  private UUID d;
+  private UUID id;
+
+  private String itemName;
+
+  private int itemPrice;
+
+  private String itemDescription;
+
+  public ShoppingItemModel(String itemName, int itemPrice, String itemDescription) {
+    this.itemName = itemName;
+    this.itemPrice = itemPrice;
+    this.itemDescription = itemDescription;
+  }
+
+  public String getItemName() {
+    return this.itemName;
+  }
+
+  public int getItemPrice() {
+    return this.itemPrice;
+  }
+
+  public String getItemDescription() {
+    return this.itemDescription;
+  }
+
+  public UUID getId() {
+    return this.id;
+  }
+
+  public void setId(UUID id) {
+    this.id = id;
+  }
 
 }

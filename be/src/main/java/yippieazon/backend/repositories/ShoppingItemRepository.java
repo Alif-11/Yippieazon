@@ -10,6 +10,6 @@ import org.springframework.stereotype.Repository;
 import yippieazon.backend.models.ShoppingItemModel;
 
 @Repository
-public interface ShoppingItemRepository {
+public interface ShoppingItemRepository extends JpaRepository<ShoppingItemModel, UUID> {
 
 }

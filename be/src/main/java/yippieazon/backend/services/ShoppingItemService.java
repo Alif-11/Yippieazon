@@ -6,6 +6,7 @@ import yippieazon.backend.models.ShoppingItemModel;
 import yippieazon.backend.repositories.ShoppingItemRepository;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class ShoppingItemService {
@@ -23,6 +24,10 @@ public class ShoppingItemService {
   public ShoppingItemModel createShoppingItem(String itemName, int itemPrice, String itemDescription) {
     ShoppingItemModel shoppingItemModel = new ShoppingItemModel(itemName, itemPrice, itemDescription);
     return shoppingItemRepository.save(shoppingItemModel);
+  }
+
+  public void deleteShoppingItem(String shoppingItemId) {
+    shoppingItemRepository.deleteById(UUID.fromString(shoppingItemId));
   }
 
 }

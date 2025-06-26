@@ -1,3 +1,5 @@
+// Used to interface with our database. Has methods to make changes to the database.
+
 package yippieazon.backend.services;
 
 import org.springframework.stereotype.Service;

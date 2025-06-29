@@ -8,6 +8,7 @@ The tech stack for this application will be:
  React and Vite for the Frontend.
  Typescript Express for the Backend. [NOT ADDED YET]
  PostgreSQL for the Database. [NOT ADDED YET]
+ Firebase for Google Auth, backend support, and other such things. [NOT ADDED YET]
  Tailwind CSS for styling. 
  React-Router for routing assistance. [NOT ADDED YET]
  Docker for containerization and hosting. [NOT ADDED YET]

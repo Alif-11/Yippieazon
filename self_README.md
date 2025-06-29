@@ -10,6 +10,7 @@ The tech stack for this application will be:
  PostgreSQL for the Database. [NOT ADDED YET]
  Firebase for Google Auth, backend support, and other such things. [NOT ADDED YET]
  Tailwind CSS for styling. 
+ AWS for website hosting [NOT ADDED YET, ALSO COULD USE DIFFERENT HOSTING SERVICE]
  React-Router for routing assistance. [NOT ADDED YET]
  Docker for containerization and hosting. [NOT ADDED YET]
 

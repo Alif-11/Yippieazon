@@ -1,6 +1,4 @@
-[Following this guide to build a React, Spring Boot, and PostgreSQL app (you're also going to add in Tailwind CSS)](https://dev.to/mspilari/fullstack-app-building-the-front-end-with-vite-react-typescript-hooks-and-docker-3i63)
-
-[Now we are on this part of the tutorial, at the 3. Models directory part of the page](https://dev.to/mspilari/fullstack-app-developing-the-back-end-with-spring-boot-and-postgresql-bbk)
+You are without a formal guide, but you can use internet resources and official documentation + examples to help.
 
 [The UI and service you are trying to replicate](https://www.amazon.com)
 
@@ -8,9 +6,9 @@ This app is intended to be an Amazon clone called Yippieazon. Everytime you add 
 
 The tech stack for this application will be:
  React and Vite for the Frontend.
- Spring Boot for the Backend. [NOT ADDED YET]
+ Typescript Express for the Backend. [NOT ADDED YET]
  PostgreSQL for the Database. [NOT ADDED YET]
- Tailwind CSS for styling. [NOT ADDED YET]
+ Tailwind CSS for styling. 
  React-Router for routing assistance. [NOT ADDED YET]
  Docker for containerization and hosting. [NOT ADDED YET]
 

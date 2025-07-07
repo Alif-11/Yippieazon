@@ -7,5 +7,7 @@ export const getApiClient = () => {
     headers: {
       'Content-Type': 'application/json',
     }
-  })
+  });
+
+  return apiClient;
 }

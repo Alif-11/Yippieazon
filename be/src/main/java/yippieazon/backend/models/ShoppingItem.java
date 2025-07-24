@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 
 @Entity // Denotes that this is a persistent Java class.
 @Table(name = "shoppingitems") // Creates an associated table.
-public class ShoppingItemModel {
+public class ShoppingItem {
 
   @Id // Denotes the primary ID
   @GeneratedValue(strategy = GenerationType.AUTO) // The method used to generate the primary ID.

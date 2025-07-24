@@ -7,12 +7,21 @@ package yippieazon.backend.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import yippieazon.backend.models.ShoppingItemModel;
+import yippieazon.backend.models.ShoppingItem;
 
 import java.util.List;
 
-public interface ShoppingItemRepository extends JpaRepository<ShoppingItemModel, Long> {
+public interface ShoppingItemRepository extends JpaRepository<ShoppingItem, Long> {
 
-  List<ShoppingItemModel> findByName(String name);
+  // Spring Data JPA will automatically write implementations for this assuming
+  // we follow method conventions.
+
+  // If we had findByName, this method would only return shopping items whose name
+  // matched exactly.
+
+  // By adding the word containing to the end of the method, this method will now
+  // match for shopping items that contain the 'name' parameter value we passed
+  // anywhere within the shopping item's name, and return said items in a List.
+  List<ShoppingItem> findByNameContaining(String name);
 
 }
